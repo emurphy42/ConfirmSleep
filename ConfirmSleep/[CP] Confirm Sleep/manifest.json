@@ -4,7 +4,7 @@
   "Version": "1.0.0",
   "Description": "Pauses at end of each day, even if you didn't sell anything.",
   "UniqueID": "JohnPeters.ConfirmSleepCP",
-  "UpdateKeys": [ "Nexus:???" ],
+  "UpdateKeys": [ "Nexus:34083" ],
   "ContentPackFor":
   {
     "UniqueID": "Pathoschild.ContentPatcher"

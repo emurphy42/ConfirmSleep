@@ -1,0 +1,12 @@
+{
+  "Name": "[CP] Confirm Sleep",
+  "Author": "John Peters (you know, the farmer?)",
+  "Version": "1.0.0",
+  "Description": "Pauses at end of each day, even if you didn't sell anything.",
+  "UniqueID": "JohnPeters.ConfirmSleepCP",
+  "UpdateKeys": [ "Nexus:???" ],
+  "ContentPackFor":
+  {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}

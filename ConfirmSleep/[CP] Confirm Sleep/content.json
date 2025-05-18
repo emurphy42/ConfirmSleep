@@ -1,0 +1,28 @@
+﻿{
+    "Format": "2.3.0",
+    "Changes": [
+        {
+            "LogName": "Load image",
+            "Action": "Load",
+            "Target": "Mods/{{ModId}}/NoTea",
+            "FromFile": "assets/no_tea.png"
+        },
+        {
+            "LogName": "Add 'No Tea' item",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "JohnPeters.NoTea": {
+                    "Name": "{{ModId}}_NoTea",
+                    "Displayname": "{{i18n:NoTea.name}}",
+                    "Description": "{{i18n:NoTea.description}}",
+                    "Type": "Basic",
+                    "Category": -20,
+                    "Price": 0,
+                    "Texture": "Mods/{{ModId}}/NoTea",
+                    "SpriteIndex": 0
+                }
+            }
+        }
+    ]
+}
